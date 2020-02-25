@@ -1,0 +1,281 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*, a{
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Serif';
+  font-size: 1.25em;
+}
+
+.icon {
+  position: relative;
+  height: 15vh;
+}
+
+.navWrapper {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  /* justify-content: left; */
+  /* background-color: #333; */
+  background-color: rgba(166, 223, 247);
+}
+
+.navMenu {
+  display: flex;
+  width: 80vw;
+  justify-content: space-evenly;
+  font-size: 3em;
+}
+
+.navLink {
+  /* padding-right: 5vw; */
+}
+
+.navMenu a:link, a:visited {
+  background-color: rgba(166, 223, 247);
+  /* border: 2px solid rgba(166, 223, 247); */
+  color: white;
+  height: 10vh;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navMenu a:hover {
+  background-color: white;
+  color: rgba(166, 223, 247);
+}
+
+a, a:visited {
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  height: 75vh;
+  align-items: center; /*vertical*/
+  justify-content: center; /*horizontal*/
+  background-color: #eee;
+  background-image: url("parent2.jpg");
+  background-size: cover;
+  color: #fff;
+  font-size: 2.5em;
+  /* background:
+    linear-gradient(
+      rgba(166, 223, 247),
+      rgba(166, 223, 247)
+    ),; */
+}
+
+.insetContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.threeColumnContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.imgSubtitleContainer {
+  width: 98%;
+}
+
+.imgSubtitleContainer img {
+  width: 98%;
+}
+
+.lineSpacer {
+  text-align: center;
+}
+
+.twoColumnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.column {
+  justify-content: space-evenly;
+  text-align: center;
+  width: 40vw;
+}
+
+.bottomCenterColumn a:link, a:visited {
+  background-color: rgba(166, 223, 247);
+  border: 2px solid rgba(166, 223, 247);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bottomCenterColumn a:hover {
+  background-color: white;
+  color: rgba(166, 223, 247);
+}
+
+.bottomCenterColumn {
+  text-align: center;
+  padding: 14px 25px;
+}
+
+.footer {
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+
+
+/*  PAGE 2 */
+
+
+.page2Header {
+  display: flex;
+  height: 300px;
+  align-items: center; /*vertical*/
+  justify-content: center; /*horizontal*/
+  /* background-color: #eee; */
+  background-image: url("gavel2.jpg");
+  background-size: cover;
+  color: #fff;
+  font-size: 1.75em;
+}
+
+.page2SectionHeader {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.page2InsetContainer {
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  flex-direction: row;
+  /* display: flex; */
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.page2InsetColumnContainer {
+  width: 40vw;
+}
+
+.page2InsetColumnContainer img {
+  width: 20vw;
+  margin-left: 10vw;
+}
+
+.page2ThreeColumnContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.page2ImgSubtitleContainer {
+  width: 98%;
+}
+
+.page2ImgSubtitleContainer img {
+  width: 98%;
+}
+
+.page2LineSpacer {
+  text-align: center;
+}
+
+.page2TwoColumnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.page2Column {
+  justify-content: space-between;
+  text-align: left;
+  width: 40vw;
+
+}
+
+.page2Column2 {
+  align-self:center;
+  text-align: center;
+  border: solid rgba(166, 223, 247);
+  width: 30vw;
+}
+
+.page2BottomCenterColumn a:link, a:visited {
+  background-color: rgba(166, 223, 247);
+  border: 2px solid rgba(166, 223, 247);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.page2BottomCenterColumn a:hover {
+  background-color: white;
+  color: rgba(166, 223, 247);
+}
+
+.page2BottomCenterColumn {
+  text-align: center;
+  padding: 14px 25px;
+}
+
+
+/* ##### PAGE 3 ##### */
+
+.page3Header {
+  display: flex;
+  height: 300px;
+  align-items: center; /*vertical*/
+  justify-content: center; /*horizontal*/
+  background-color: #eee;
+  background-image: url("building2.png");
+  background-size: cover;
+  color: #fff;
+  font-size: 1.75em;
+}
+
+.page3SectionHeader {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.page3InsetContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
